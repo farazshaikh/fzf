@@ -301,9 +301,9 @@ for cmd in $a_cmds; do
 done
 
 # Directory
-for cmd in $d_cmds; do
-  __fzf_defc "$cmd" _fzf_dir_completion "-o nospace -o dirnames"
-done
+#for cmd in $d_cmds; do
+#  __fzf_defc "$cmd" _fzf_dir_completion "-o nospace -o dirnames"
+#done
 
 # Kill completion
 complete -F _fzf_complete_kill -o default -o bashdefault kill
